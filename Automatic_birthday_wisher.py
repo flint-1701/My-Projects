@@ -2,8 +2,8 @@ import pandas as pd
 import datetime
 import smtplib
 
-gmail_id='birariakshay0@gmail.com'
-gmail_psd='AkshAy1701@'
+gmail_id='Your Email ID'
+gmail_psd='Your password'
 
 def sendEmail(to,sub,msg):
     print(f"Email is sent to {to} with subject {sub} and message {msg}")
